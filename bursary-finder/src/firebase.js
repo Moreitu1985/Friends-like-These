@@ -1,7 +1,8 @@
 // src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-import { getAuth } from "firebase/auth";
+import { getAuth ,signInAnonymously } from "firebase/auth";
+
 
 // Replace these with your actual Firebase config values
 const firebaseConfig = {
@@ -16,7 +17,17 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-// Exports
 export const db = getFirestore(app);
-export const auth = getAuth(app);
+
+
+// helper to sign-in anonymously for the demo
+export async function ensureAnonAuth() {
+const auth = getAuth(app);
+try {
+if (!auth.currentUser) await signInAnonymously(auth);
+return auth.currentUser?.uid || null;
+} catch (e) {
+console.warn("Anonymous auth unavailable — continuing without it.", e);
+return null;
+}
+}
