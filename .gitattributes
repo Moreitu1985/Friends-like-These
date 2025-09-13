@@ -1,23 +1,18 @@
 # Enforce consistent line endings across platforms
 # Text files get normalized to LF in the repo
 # On checkout, Windows users get CRLF, Linux/macOS get LF
-
 # Default: treat all files as text and normalize line endings
 * text=auto eol=lf
-
 # Explicitly enforce CRLF for Windows-specific files
 *.bat text eol=crlf
 *.cmd text eol=crlf
-
 # Enforce LF for shell scripts and POSIX files
 *.sh text eol=lf
 *.bash text eol=lf
 *.zsh text eol=lf
-
 # Enforce LF for code files (cross-platform safe)
 *.{c,cpp,cxx,inl,h,hpp,tli,java,cs,js,jsx,ts,tsx,py,lua,rb,go,rs,php} text eol=lf
 *.{html,htm,css,scss,md,json,yml,yaml,xml,xaml,ini} text eol=lf
-
 # Keep images, binaries, and archives untouched
 *.png binary
 *.jpg binary
@@ -26,7 +21,7 @@
 *.webp binary
 *.ico binary
 *.pdf binary
-*.mp4 binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov binary
 *.m4v binary
 *.mp3 binary
@@ -44,6 +39,5 @@
 *.so binary
 *.dylib binary
 *.solib binary
-
 # Ensure GitHub recognizes linguistics correctly (optional)
 *.md linguist-language=Markdown
