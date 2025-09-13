@@ -6,7 +6,7 @@ This guide shows judges and users how to run, explore, and evaluate the Mario‑
 
 ## ▶ Running the Application
 
-> Assumes you completed the steps in *SETUP.md* (env vars + Firebase).
+> Assumes you completed the steps in *SETUP.md* (env vars + Firebase). and installed all libraries
 
 ### Dev server (Vite)
 
@@ -19,6 +19,9 @@ Open the printed *localhost* URL in your browser.
 ### Create React App (if your project uses CRA)
 
 bash
+before npm start move to bursary-finder
+cd bursary finder .
+
 npm start
 
 
@@ -105,10 +108,8 @@ npm run preview   # vite preview server
 
 ## 🎥 Demo
 
-Add your demo assets to the demo/ folder and link them here:
+ demo video included in demo folder.
 
-* [Demo Video](../demo/demo.mp4)
-* [Demo Presentation](../demo/demo.pptx)
 
 If you host a live demo page, include the URL here as well.
 
