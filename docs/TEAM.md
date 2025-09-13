@@ -12,8 +12,8 @@ Friends Like These
 ## 👥 Members
 | Name     | Role                | Institution           | Discord Handle | Email |
 |----------|---------------------|-----------------------| -------------------|-------------|
-| **Edzani Phundulu**   | Fullstack Developer   | University of Johannesburg | name1 | <edzanidilu@gmail.com> |
-| **Itumeleng More**   | Fullstack Developer  | University of the Johannesburg | name2 | <ItumelengMore15@gmail.com> |
+| **Edzani Phundulu**   | Fullstack Developer   | University of Johannesburg | I More | <edzanidilu@gmail.com> |
+| **Itumeleng More**   | Fullstack Developer  | University of the Johannesburg | Phundulu EEM | <ItumelengMore15@gmail.com> |
 
 
 ## 🏫 Institution
