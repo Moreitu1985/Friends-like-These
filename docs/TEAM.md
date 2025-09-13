@@ -6,23 +6,23 @@
 
 ## ⚒️ Team Name
 ``` c
-// TODO: Fill-in the name of your team.
+Friends Like These
 ```
 
 ## 👥 Members
 | Name     | Role                | Institution           | Discord Handle | Email |
 |----------|---------------------|-----------------------| -------------------|-------------|
-| **Name 1**   | Backend Developer   | University of Cape Town | name1 | <email1@gmail.com> |
-| **Name 2**   | Frontend Developer  | University of the Witwatersrand | name2 | <email2@gmail.com> |
-| **Name 3**   | Designer            | University of Johannesburg | name3 | <email3@gmail.com> |
-| **Name 4**   | Q.A Tester          | University of the Western Cape | name4 | <email4@gmail.com> |
+| **Edzani Phundulu**   | Fullstack Developer   | University of Johannesburg | name1 | <edzanidilu@gmail.com> |
+| **Itumeleng More**   | Fullstack Developer  | University of the Johannesburg | name2 | <ItumelengMore15@gmail.com> |
+
 
 ## 🏫 Institution
 ``` c
-// TODO: Fill-in the name of the institution your
-// team is competing under.
+University of Johannesburg
 ```
 
 ## 📧 Other Contact Info
-- GitHub Repo: <https://github.com/user-name/repo-name>
+
 - Other Info (if available): LinkedIn, Website, etc.
+- Itumeleng More :[https://www.linkedin.com/feed/](https://www.linkedin.com/in/itumeleng-more-5a2073244/)
+- Edzani Phundulu :https://www.linkedin.com/in/edzani-phundulu-126b26287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
