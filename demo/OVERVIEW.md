@@ -4,26 +4,33 @@
 
 ## 🎯 Project Name
 ``` c
-// TODO: Enter your project name here
+ThutoFunds – Gamified Bursary Finder
 ```
 
 ## 🚀 Summary
 ``` c
-// TODO: Write a short, high-level description of your
-// project (2–3 sentences).
-```
+ThutoFunds is a gamified platform that helps South African students discover bursaries and scholarships tailored to their profile. By combining AI recommendations with an interactive Mario-style map, students can complete stages, earn coins, unlock badges, and receive curated bursary suggestions.
 
 ## ✨ Key Features
-``` c
-// TODO: List key features.
+- 🏘 Personal Info Village, 🌲 Education Forest, and 🏰 Financial Castle stages for gamified profile entry.  
+- 🎮 Coins and badges awarded as students fill fields and complete stages.  
+- 🤖 AI-powered bursary suggestions using **Google Gemini API** via Firebase Cloud Functions.  
+- 📋 Profile creation and storage in **Firebase Firestore**.  
+- 🎊 Celebration effects for milestones and final submission.
 ```
+
 
 ## 💡 Inspiration
 ``` c
-// TODO: Briefly explain the motivation behind your project.
+Many students in South Africa struggle to find bursaries and scholarships relevant to their academic profile. We wanted to make the process **fun, interactive, and personalized**, using AI to help students save time and find opportunities they might otherwise miss.
+
 ```
 
 ## 📌 Future Improvements
 ``` c
-// TODO: Mention ideas or features you’d add if given more time.
+- Add **login/authentication** so students can save progress across devices.  
+- Make a **mobile version** using React Native or Flutter.  
+- Introduce **leaderboards and achievements** to further gamify the experience.  
+- Expand AI suggestions with **real-time bursary database updates**.  
+- Add **notification system** for new bursaries and deadlines.
 ```
