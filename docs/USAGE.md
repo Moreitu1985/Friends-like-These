@@ -122,4 +122,4 @@ If you host a live demo page, include the URL here as well.
 * *Resetting*: Clear local storage or use the UI’s reset button (if present) to simulate a new user.
 * *Troubleshooting*: If no results appear, seed data and ensure your Firestore timestamps/deadlines are valid.
 
-Happy exploring! 🎉
+
