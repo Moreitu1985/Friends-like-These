@@ -108,7 +108,7 @@ npm run preview   # vite preview server
 
 ## 🎥 Demo
 
- demo video included in demo folder.
+ demo video link:https://youtu.be/tl2lNlK2FzQ 
 
 
 If you host a live demo page, include the URL here as well.
